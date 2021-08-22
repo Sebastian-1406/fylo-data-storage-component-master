@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+	<title>Frontend Mentor | Fylo data storage component</title>
+
+	<link rel="stylesheet" href="./app/normalize.css">
+	<link rel="stylesheet" href="./app/app.css">
+
+</head>
+
+<body>
+
+	<div class="contenedor">
+
+		<div class="contenido__imagen">
+			<img src="./images/logo.svg" alt="Fylo/svg" class="imagen-logo">
+			<div class="opciones__imagenes">
+				<div class="opcion">
+					<img src="./images/icon-document.svg" aria-hidden="true" class="img">
+				</div>
+				<div class="opcion">
+					<img src="./images/icon-folder.svg" aria-hidden="true" class="img">
+				</div>
+				<div class="opcion">
+					<img src="./images/icon-upload.svg" aria-hidden="true" class="img">
+				</div>
+			</div>
+		</div>
+		<div class="contenido__texto">
+			<p class="parrafo">You’ve used <span class="white">815 GB</span> of your storage</p>
+			<div class="rango">
+				<input type="range" max="1000" value="815" class="input">
+				<div class="rango__texto">
+					<span class="white">0 GB</span>
+					<span class="white">1000 GB</span>
+				</div>
+			</div>
+			<div class="tarjeta">
+				<h2 class="numero">185 </h2>
+				<p class="gris">GB Left</p>
+				<div class="triangulo"></div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
